@@ -1,11 +1,12 @@
 <template>
   <div class="wrapper">
-    <input type="text" placeholder="vue-ui">
+    <input type="text" placeholder="yoghurt">
   </div>
 </template>
 
 <script>
 export default {
+  name: "yog-input",
   components: {},
   props: {},
   data() {

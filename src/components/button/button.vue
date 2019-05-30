@@ -1,11 +1,12 @@
 <template>
   <div class="wrapper">
-    <button>Vue-Button</button>
+    <button>yoghurt</button>
   </div>
 </template>
 
 <script>
 export default {
+  name:'yog-button',
   components: {},
   props: {},
   data() {
@@ -18,7 +19,7 @@ export default {
   mounted() {}
 };
 </script>
-<style scoped>
+<style  scoped>
 .wrapper {
 }
 </style>

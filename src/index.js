@@ -1,10 +1,10 @@
-import Button from './button/index'
-import Input from './input/index'
+import YogButton from './components/button'
+import YogInput from './components/input'
 // ...如果还有的话继续添加
 
 const components = [
-  Button,
-  Input
+  YogButton,
+  YogInput
   // ...如果还有的话继续添加
 ]
 
@@ -21,7 +21,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Button,
-  Input
+  YogButton,
+  YogInput
   // ...如果还有的话继续添加
 }
